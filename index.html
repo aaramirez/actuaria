@@ -12,7 +12,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Ciencia de datos actuariales</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="La matemática y los datos detrás de un seguro: mortalidad y seguros de vida, tarificación no vida con frecuencia, severidad, GLM y credibilidad, reservas con triángulos, reaseguro, solvencia y el uso de la ciencia de datos en una aseguradora.">
+<meta name="description" content="La matemática, los datos y los sistemas detrás de un seguro: mortalidad y seguros de vida, tarificación no vida con GLM y credibilidad, reservas con triángulos, reaseguro y solvencia, y la tecnología que los pone en marcha: sistemas de pólizas y siniestros, motores de tarificación, plataformas de cálculo actuarial, telemática e IoT y modelos en producción.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&display=swap">
@@ -31,16 +31,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <header class="hero">
   <span class="eyebrow">Curso visual e interactivo · Industrias y finanzas</span>
-  <h1>Ponerle precio hoy a algo que quizá pase dentro de cuarenta años, y tener el dinero cuando pase</h1>
-  <p class="lede">Una aseguradora cobra antes y paga después: vende la promesa de cubrir una muerte, un choque o un incendio sin saber si ocurrirá ni cuánto costará. Para que esa promesa se cumpla hace falta estimar probabilidades con datos, cobrar el precio justo a cada asegurado, reservar lo que todavía se debe y tener capital para el año malo. Este curso recorre esas cuentas, de la tabla de mortalidad al triángulo de siniestros, con los modelos que hoy hace un actuario con R o Python.</p>
+  <h1>Ponerle precio hoy a algo que quizá pase dentro de cuarenta años, cotizarlo en doscientos milisegundos y tener el dinero cuando pase</h1>
+  <p class="lede">Una aseguradora cobra antes y paga después: vende la promesa de cubrir una muerte, un choque o un incendio sin saber si ocurrirá ni cuánto costará. Para cumplir esa promesa hace falta estimar probabilidades con datos, cobrar el precio justo a cada asegurado, reservar lo que todavía se debe y tener capital para el año malo. Y todo eso corre en sistemas: el de pólizas que emite, el motor que cotiza en línea, el de siniestros que paga, la plataforma que proyecta millones de flujos para las reservas y los sensores que miden cómo maneja cada conductor. Este curso recorre las cuentas y los sistemas, de la tabla de mortalidad al modelo en producción.</p>
 </header>
 
 <section>
   <h2>Cómo usar este curso</h2>
   <div class="prose">
-    <p><b>Estado.</b> El curso está en preparación. La <a href="temario.html">tabla de contenido</a> ya tiene los 14 capítulos con sus secciones y sus laboratorios, y está en revisión.</p>
-    <p><b>Para quién es.</b> Estudiantes universitarios de actuaría, estadística, matemática, economía o ciencia de datos, y profesionales de seguros que quieren la base cuantitativa. Conviene saber probabilidad (variables aleatorias, esperanza, distribuciones), algo de regresión y el valor del dinero en el tiempo. La teoría de los modelos lineales generalizados está en Modelos lineales generalizados; el interés compuesto y el descuento, en Finanzas; el aprendizaje automático general, en Datos e IA; y el riesgo financiero de los bancos, en Gestión de riesgos.</p>
-    <p><b>Cómo está hecho.</b> Una aseguradora mediana ficticia de la región recorre el curso con dos carteras: una de seguros de vida y rentas, y una de seguros de automóvil. Con la primera se construyen la tabla de mortalidad, las primas y las reservas matemáticas; con la segunda, la tarifa, los triángulos de siniestros y el reaseguro; al final, las dos se juntan en el capital de solvencia. Los laboratorios corren en la página con datos simulados o públicos: mueves una tasa de interés, una edad, un factor de desarrollo o una retención y ves cambiar la prima, la reserva o el capital. Las prácticas usan R o Python con conjuntos de datos actuariales públicos.</p>
+    <p><b>Estado.</b> El curso está en preparación. La <a href="temario.html">tabla de contenido</a> ya tiene los 18 capítulos con sus secciones y sus laboratorios, y está en revisión.</p>
+    <p><b>Para quién es.</b> Estudiantes universitarios de actuaría, estadística, matemática, economía, sistemas o ciencia de datos, y profesionales de seguros que quieren la base cuantitativa y tecnológica. Conviene saber probabilidad (variables aleatorias, esperanza, distribuciones), algo de regresión, el valor del dinero en el tiempo y un poco de R o Python. La teoría de los modelos lineales generalizados está en Modelos lineales generalizados; el interés compuesto y el descuento, en Finanzas; el aprendizaje automático general, en Datos e IA; el despliegue y la vigilancia de modelos a fondo, en MLOps; las APIs, en Backend y APIs; y el riesgo financiero de los bancos, en Gestión de riesgos.</p>
+    <p><b>Cómo está hecho.</b> Una aseguradora mediana ficticia de la región recorre el curso con dos carteras: una de seguros de vida y rentas, y una de seguros de automóvil. Se siguen sus pólizas por los sistemas, de la cotización a la emisión y del aviso de siniestro al pago; con la cartera de vida se construyen la tabla de mortalidad, las primas y las reservas en una plataforma de proyección; con la de automóvil, la tarifa que se publica en un motor de tarificación, los triángulos de siniestros, el reaseguro y la telemática; al final, las dos se juntan en el capital de solvencia y en los modelos en producción. Los laboratorios corren en la página con datos simulados o públicos: mueves una tasa, una edad, un factor de desarrollo, una retención o un umbral y ves cambiar la prima, la reserva, el capital o la decisión del sistema. Las prácticas usan R o Python con paquetes y datos actuariales públicos y herramientas de código abierto. Las plataformas comerciales aparecen solo como ejemplos del mercado.</p>
   </div>
 </section>
 
@@ -50,42 +50,46 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </details>
 
-<details class="stage" id="parte-1" open><summary><h2><span class="pn">Parte 1</span> El negocio del seguro</h2><span class="cuenta" data-etapa-cuenta="1"></span></summary>
+<details class="stage" id="parte-1" open><summary><h2><span class="pn">Parte 1</span> El seguro, sus datos y sus sistemas</h2><span class="cuenta" data-etapa-cuenta="1"></span></summary>
   <div class="mods">
-    <div class="mod soon" data-id="como-funciona-un-seguro"><span class="n">01</span><b>Cómo funciona un seguro</b><p>Juntar riesgos para que el azar de cada uno se vuelva predecible en el grupo, y lo que hace un actuario con eso.</p></div>
-    <div class="mod soon" data-id="datos-de-seguros"><span class="n">02</span><b>Los datos de una aseguradora: pólizas, exposición y siniestros</b><p>Las tablas con las que trabaja un actuario, la exposición como medida del riesgo y los errores que arruinan un modelo.</p></div>
+    <div class="mod soon" data-id="como-funciona-un-seguro"><span class="n">01</span><b>Cómo funciona un seguro</b><p>Juntar riesgos para que el azar de cada uno se vuelva predecible en el grupo, y lo que hacen con eso el actuario y el científico de datos.</p></div>
+    <div class="mod soon" data-id="sistemas-de-una-aseguradora"><span class="n">02</span><b>Los sistemas de una aseguradora: pólizas, siniestros, facturación y canales</b><p>El núcleo tecnológico del seguro: qué hace cada sistema, cómo se hablan entre sí y con los corredores, y cómo viaja una póliza de punta a punta.</p></div>
+    <div class="mod soon" data-id="datos-de-seguros"><span class="n">03</span><b>Los datos de una aseguradora: pólizas, exposición y siniestros</b><p>Las tablas que salen de esos sistemas, la exposición como medida del riesgo, el almacén actuarial y los errores que arruinan un modelo.</p></div>
   </div>
 </details>
 
 <details class="stage" id="parte-2" open><summary><h2><span class="pn">Parte 2</span> Seguros de vida</h2><span class="cuenta" data-etapa-cuenta="2"></span></summary>
   <div class="mods">
-    <div class="mod soon" data-id="mortalidad-y-tablas-de-vida"><span class="n">03</span><b>Mortalidad y tablas de vida</b><p>Cómo se mide la probabilidad de morir a cada edad y cómo se construye una tabla a partir de datos.</p></div>
-    <div class="mod soon" data-id="valor-actuarial-y-anualidades"><span class="n">04</span><b>Valor presente actuarial y rentas vitalicias</b><p>Descontar con interés y con supervivencia a la vez: el valor de pagos que solo ocurren si la persona vive.</p></div>
-    <div class="mod soon" data-id="seguros-de-vida-primas-y-reservas"><span class="n">05</span><b>Seguros de vida: primas y reservas matemáticas</b><p>Seguros temporales, vitalicios y dotales, la prima que equilibra lo que se cobra y lo que se promete, y la reserva que crece en el tiempo.</p></div>
-    <div class="mod soon" data-id="rentas-pensiones-y-longevidad"><span class="n">06</span><b>Rentas, pensiones y riesgo de longevidad</b><p>Cuando el riesgo no es morir pronto sino vivir más de lo previsto: pensiones, rentas y cómo se cubre la longevidad.</p></div>
+    <div class="mod soon" data-id="mortalidad-y-tablas-de-vida"><span class="n">04</span><b>Mortalidad y tablas de vida</b><p>Cómo se mide la probabilidad de morir a cada edad y cómo se construye una tabla a partir de datos.</p></div>
+    <div class="mod soon" data-id="valor-actuarial-y-anualidades"><span class="n">05</span><b>Valor presente actuarial y rentas vitalicias</b><p>Descontar con interés y con supervivencia a la vez: el valor de pagos que solo ocurren si la persona vive.</p></div>
+    <div class="mod soon" data-id="seguros-de-vida-primas-y-reservas"><span class="n">06</span><b>Seguros de vida: primas y reservas matemáticas</b><p>Seguros temporales, vitalicios y dotales, la prima que equilibra lo que se cobra y lo que se promete, y la reserva que crece en el tiempo.</p></div>
+    <div class="mod soon" data-id="rentas-pensiones-y-longevidad"><span class="n">07</span><b>Rentas, pensiones y riesgo de longevidad</b><p>Cuando el riesgo no es morir pronto sino vivir más de lo previsto: pensiones, rentas y cómo se proyecta y se cubre la longevidad.</p></div>
   </div>
 </details>
 
 <details class="stage" id="parte-3" open><summary><h2><span class="pn">Parte 3</span> No vida: tarificación</h2><span class="cuenta" data-etapa-cuenta="3"></span></summary>
   <div class="mods">
-    <div class="mod soon" data-id="frecuencia-y-severidad"><span class="n">07</span><b>Frecuencia, severidad y el modelo de riesgo colectivo</b><p>Modelar cuántos siniestros ocurren y cuánto cuesta cada uno, y combinarlos en la pérdida total de la cartera.</p></div>
-    <div class="mod soon" data-id="tarificacion-con-glm"><span class="n">08</span><b>Tarificación con modelos lineales generalizados</b><p>La tarifa por perfil de riesgo: modelos de Poisson y gamma con exposición, relatividades y la tarifa final.</p></div>
-    <div class="mod soon" data-id="credibilidad-y-bonus-malus"><span class="n">09</span><b>Teoría de la credibilidad y sistemas *bonus-malus*</b><p>Cuánto confiar en la experiencia propia de un asegurado o de un grupo frente a la de toda la cartera.</p></div>
+    <div class="mod soon" data-id="frecuencia-y-severidad"><span class="n">08</span><b>Frecuencia, severidad y el modelo de riesgo colectivo</b><p>Modelar cuántos siniestros ocurren y cuánto cuesta cada uno, y combinarlos en la pérdida total de la cartera.</p></div>
+    <div class="mod soon" data-id="tarificacion-con-glm"><span class="n">09</span><b>Tarificación con modelos lineales generalizados y árboles</b><p>La tarifa por perfil de riesgo: modelos de Poisson y gamma con exposición, relatividades, y cuándo un modelo de árboles mejora la tarifa.</p></div>
+    <div class="mod soon" data-id="credibilidad-y-bonus-malus"><span class="n">10</span><b>Teoría de la credibilidad y sistemas *bonus-malus*</b><p>Cuánto confiar en la experiencia propia de un asegurado o de un grupo frente a la de toda la cartera.</p></div>
   </div>
 </details>
 
-<details class="stage" id="parte-4" open><summary><h2><span class="pn">Parte 4</span> Reservas</h2><span class="cuenta" data-etapa-cuenta="4"></span></summary>
+<details class="stage" id="parte-4" open><summary><h2><span class="pn">Parte 4</span> Reservas, reaseguro y solvencia</h2><span class="cuenta" data-etapa-cuenta="4"></span></summary>
   <div class="mods">
-    <div class="mod soon" data-id="triangulos-y-chain-ladder"><span class="n">10</span><b>Triángulos de desarrollo y el método *chain ladder*</b><p>Proyectar cuánto costarán al final los siniestros que ya ocurrieron, incluidos los que aún no se han avisado.</p></div>
-    <div class="mod soon" data-id="incertidumbre-de-reservas"><span class="n">11</span><b>La incertidumbre de las reservas: Mack, *bootstrap* y modelos</b><p>La reserva es una estimación: cuánto puede equivocarse y cómo se mide ese error.</p></div>
+    <div class="mod soon" data-id="triangulos-y-chain-ladder"><span class="n">11</span><b>Triángulos de desarrollo y el método *chain ladder*</b><p>Proyectar cuánto costarán al final los siniestros que ya ocurrieron, incluidos los que aún no se han avisado, a partir de los datos del sistema de siniestros.</p></div>
+    <div class="mod soon" data-id="incertidumbre-de-reservas"><span class="n">12</span><b>La incertidumbre de las reservas: Mack, *bootstrap* y modelos individuales</b><p>La reserva es una estimación: cuánto puede equivocarse, cómo se mide ese error y qué aportan los datos de cada siniestro.</p></div>
+    <div class="mod soon" data-id="reaseguro"><span class="n">13</span><b>Reaseguro y modelos de catástrofes</b><p>Cómo una aseguradora cede parte de su riesgo, cuánto le cuesta, qué le queda y cómo se simula una catástrofe que todavía no ocurrió.</p></div>
+    <div class="mod soon" data-id="ruina-y-solvencia"><span class="n">14</span><b>Teoría de la ruina, capital de solvencia y reporte regulatorio</b><p>La probabilidad de que la aseguradora se quede sin capital, cómo la regulación fija cuánto debe tener y cómo se reporta.</p></div>
   </div>
 </details>
 
-<details class="stage" id="parte-5" open><summary><h2><span class="pn">Parte 5</span> Riesgo, capital y datos</h2><span class="cuenta" data-etapa-cuenta="5"></span></summary>
+<details class="stage" id="parte-5" open><summary><h2><span class="pn">Parte 5</span> La tecnología del seguro</h2><span class="cuenta" data-etapa-cuenta="5"></span></summary>
   <div class="mods">
-    <div class="mod soon" data-id="reaseguro"><span class="n">12</span><b>Reaseguro: el seguro de las aseguradoras</b><p>Cómo una aseguradora cede parte de su riesgo, cuánto le cuesta y qué le queda.</p></div>
-    <div class="mod soon" data-id="ruina-y-solvencia"><span class="n">13</span><b>Teoría de la ruina y capital de solvencia</b><p>La probabilidad de que la aseguradora se quede sin capital, y cómo la regulación fija cuánto debe tener.</p></div>
-    <div class="mod soon" data-id="ciencia-de-datos-en-seguros"><span class="n">14</span><b>Ciencia de datos en el seguro: fraude, renovación, telemática y ética</b><p>Dónde el aprendizaje automático cambia el seguro, y dónde la regulación y la equidad ponen límites.</p></div>
+    <div class="mod soon" data-id="motores-de-tarificacion"><span class="n">15</span><b>El motor de tarificación: de la tarifa al cotizador en línea</b><p>Cómo una tarifa sale de la hoja del actuario, se publica con su vigencia y responde cotizaciones en milisegundos para la web, los corredores y los comparadores.</p></div>
+    <div class="mod soon" data-id="plataformas-de-calculo-actuarial"><span class="n">16</span><b>Plataformas de cálculo actuarial: proyectar millones de flujos</b><p>Cómo se calculan las reservas y el capital de una cartera de vida proyectando cada póliza mes a mes, en qué plataformas y con qué controles.</p></div>
+    <div class="mod soon" data-id="telematica-e-iot"><span class="n">17</span><b>Telemática, IoT y seguros paramétricos</b><p>Cuando el riesgo se mide en vivo: el conductor medido por kilómetro y por frenada, la casa con sensores y el seguro que paga solo cuando un dato público cruza un umbral.</p></div>
+    <div class="mod soon" data-id="modelos-en-produccion"><span class="n">18</span><b>Modelos en producción: fraude, renovación, suscripción automática y ética</b><p>Dónde el aprendizaje automático decide en el día a día del seguro, cómo se despliega y se vigila, y dónde la regulación y la equidad ponen límites.</p></div>
   </div>
 </details>
 

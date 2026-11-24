@@ -9,16 +9,20 @@ Este repositorio solo tiene el sitio generado. El curso está en preparación: l
 | # | Capítulo |
 |---|---|
 | 01 | Cómo funciona un seguro |
-| 02 | Los datos de una aseguradora: pólizas, exposición y siniestros |
-| 03 | Mortalidad y tablas de vida |
-| 04 | Valor presente actuarial y rentas vitalicias |
-| 05 | Seguros de vida: primas y reservas matemáticas |
-| 06 | Rentas, pensiones y riesgo de longevidad |
-| 07 | Frecuencia, severidad y el modelo de riesgo colectivo |
-| 08 | Tarificación con modelos lineales generalizados |
-| 09 | Teoría de la credibilidad y sistemas *bonus-malus* |
-| 10 | Triángulos de desarrollo y el método *chain ladder* |
-| 11 | La incertidumbre de las reservas: Mack, *bootstrap* y modelos |
-| 12 | Reaseguro: el seguro de las aseguradoras |
-| 13 | Teoría de la ruina y capital de solvencia |
-| 14 | Ciencia de datos en el seguro: fraude, renovación, telemática y ética |
+| 02 | Los sistemas de una aseguradora: pólizas, siniestros, facturación y canales |
+| 03 | Los datos de una aseguradora: pólizas, exposición y siniestros |
+| 04 | Mortalidad y tablas de vida |
+| 05 | Valor presente actuarial y rentas vitalicias |
+| 06 | Seguros de vida: primas y reservas matemáticas |
+| 07 | Rentas, pensiones y riesgo de longevidad |
+| 08 | Frecuencia, severidad y el modelo de riesgo colectivo |
+| 09 | Tarificación con modelos lineales generalizados y árboles |
+| 10 | Teoría de la credibilidad y sistemas *bonus-malus* |
+| 11 | Triángulos de desarrollo y el método *chain ladder* |
+| 12 | La incertidumbre de las reservas: Mack, *bootstrap* y modelos individuales |
+| 13 | Reaseguro y modelos de catástrofes |
+| 14 | Teoría de la ruina, capital de solvencia y reporte regulatorio |
+| 15 | El motor de tarificación: de la tarifa al cotizador en línea |
+| 16 | Plataformas de cálculo actuarial: proyectar millones de flujos |
+| 17 | Telemática, IoT y seguros paramétricos |
+| 18 | Modelos en producción: fraude, renovación, suscripción automática y ética |
